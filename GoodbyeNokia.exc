@@ -1,0 +1,503 @@
+[W0]
+keywords=addremove
+command=control.exe
+comment=Add/remove programs
+param=appwiz.cpl
+
+[W1]
+keywords=admin
+command=control.exe
+comment=Administrative tools
+param=admintools
+
+[W2]
+keywords=alarm
+command=$ALARM$
+comment=A simple alarm
+
+[W3]
+keywords=apps
+command=$APPS$
+comment=List applications
+
+[W4]
+keywords=clipboard
+command=$CLIPBOARD$
+comment=View text from clipboard
+one=1
+
+[W5]
+keywords=control
+command=control.exe
+comment=Opens the control panel
+
+[W6]
+keywords=define
+command=http://dictionary.reference.com/browse/$U$
+comment=Online dictionary
+
+[W7]
+keywords=desktop
+command=control.exe
+comment=Display background
+param=desk.cpl ,0
+
+[W8]
+keywords=devices
+command=devmgmt.msc
+comment=Device manager
+
+[W9]
+keywords=display
+command=control.exe
+comment=Display settings
+param=desk.cpl ,3
+
+[W10]
+keywords=email
+command=mailto:$P$
+comment=Send email
+
+[W11]
+keywords=find
+command=search-ms:query=$p$
+comment=Windows instant search (if available)
+
+[W12]
+keywords=firewall
+command=control.exe
+comment=Windows firewall config
+param=firewall.cpl
+
+[W13]
+keywords=google
+command=http://www.google.com/search?hl=en&q=$U$
+comment=Google search
+
+[W14]
+keywords=hood
+command=explorer.exe
+comment=My network places (Network Neighborhood)
+param=::{208D2C60-3AEA-1069-A2D7-08002B30309D}
+
+[W15]
+keywords=ie
+command=IEXPLORE.EXE
+comment=Open Internet Explorer
+param=$P$
+
+[W16]
+keywords=ip
+command=$SHOWIP$
+comment=Get machine IP address (list if more)
+
+[W17]
+keywords=ipconfig
+command=cmd.exe
+comment=IPconfig
+param=/K ipconfig $P$
+
+[W18]
+keywords=listgroups
+command=$GROUPS$
+comment=List keyword groups
+
+[W19]
+keywords=mail
+command=msimn.exe
+comment=Outlook
+
+[W20]
+keywords=media
+command=$MEDIA$
+comment=Default media player
+
+[W21]
+keywords=movie
+command=http://www.imdb.com/find?s=all&q=$U$
+comment=IMDb search for movies
+
+[W22]
+keywords=mute
+command=$MUTE$
+comment=Mute and unmute windows master volume
+
+[W23]
+keywords=mycomp
+command=explorer.exe
+comment=Opens my computer
+param=::{20D04FE0-3AEA-1069-A2D8-08002B30309D}
+
+[W24]
+keywords=mydoc
+command=explorer.exe
+comment=Opens my documents
+param=::{450D8FBA-AD25-11D0-98A8-0800361B1103}
+
+[W25]
+keywords=netstat
+command=cmd.exe
+comment=Netstat
+param=/K netstat $P$
+
+[W26]
+keywords=network
+command=control.exe
+comment=Network connections
+param=ncpa.cpl
+
+[W27]
+keywords=next
+command=$NEXT$
+comment=Next media
+
+[W28]
+keywords=notes
+command=$NOTES$
+comment=Notes, supports parameter text
+param=$P$
+
+[W29]
+keywords=ping
+command=cmd.exe
+comment=Ping
+param=/K ping $P$
+
+[W30]
+keywords=play
+command=$PLAY$
+comment=Play media
+
+[W31]
+keywords=previous
+command=$PREV$
+comment=Previous media
+
+[W32]
+keywords=printers
+command=control.exe
+comment=Printers and fax
+param=printers.cpl
+
+[W33]
+keywords=recycle
+command=explorer.exe
+comment=Recycle bin
+param=::{645FF040-5081-101B-9F08-00AA002F954E}
+
+[W34]
+keywords=remote
+command=C:\WINDOWS\system32\mstsc.exe
+path=%HOMEDRIVE%%HOMEPATH%
+comment=Remote Desktop Connection
+
+[W35]
+keywords=recent
+command=$RECENT$
+comment=List recent documents
+
+[W36]
+keywords=refreshindex
+command=$REFRESHINDEX$
+comment=Will refresh the index now
+
+[W37]
+keywords=screensaver
+command=$SCREENSAVER$
+comment=Start screensaver
+
+[W38]
+keywords=search
+command=$SEARCH$
+comment=Open windows search
+
+[W39]
+keywords=services
+command=services.msc
+comment=Windows services
+
+[W40]
+keywords=stop
+command=$STOP$
+comment=Stop media
+
+[W41]
+keywords=stopwatch
+command=$STOPWATCH$
+comment=A simple stopwatch
+
+[W42]
+keywords=system
+command=control.exe
+comment=System (same as properties on my computer)
+param=sysdm.cpl
+
+[W43]
+keywords=task
+command=taskmgr.exe
+comment=Opens the taskmanager
+
+[W44]
+keywords=textclean
+command=$TEXTCLEAN$
+comment=Will strip formatting of current clipboard text
+
+[W45]
+keywords=time
+command=$TIME$
+comment=Get time and date
+
+[W46]
+keywords=timer
+command=$TIMER$
+comment=A simple timer
+
+[W47]
+keywords=tracert
+command=cmd.exe
+comment=Trace route
+param=/K tracert $P$
+
+[W48]
+keywords=wiki
+command=http://en.wikipedia.org/wiki/Special:Search?search=$U$&go=Go
+comment=Wikipedia search
+
+[W49]
+keywords=youtube
+command=http://www.youtube.com/results?search_query=$U$
+comment=YouTube search
+
+[W50]
+keywords=?emptyrecyclebin
+command=$EMPTYRECYCLEBIN$
+comment=Empty recycle bin
+
+[W51]
+keywords=?hibernate
+command=$HIBERNATE$
+comment=Sets computer in hibernate mode
+
+[W52]
+keywords=?lock
+command=$LOCK$
+comment=Lock computer or switch user
+
+[W53]
+keywords=?logoff
+command=$LOGOFF$
+comment=Logoff current user
+
+[W54]
+keywords=?monitor
+command=$MONITOR$
+comment=Turns off monitor
+
+[W55]
+keywords=?restart
+command=$RESTART$
+comment=Restart windows
+
+[W56]
+keywords=?saveclipboard
+command=$SAVECLIPBOARD$
+comment=Save clipboard to a file
+
+[W57]
+keywords=?shutdown
+command=$SHUTDOWN$
+comment=Shutdown windows
+
+[W58]
+keywords=?sleep
+command=$STANDBY$
+comment=Send computer to sleep mode
+
+[W59]
+keywords=?standby
+command=$STANDBY$
+comment=Sets computer in standby mode
+
+[W60]
+keywords=centralbuild
+command=http://hzbtsci.china.nsn-net.net/cbpts70/centralBuild/list
+
+[W61]
+keywords=flags
+command=D:\BRANCHES\TRUNK\C_Application\SC_OAM\include\definitions
+
+[W62]
+keywords=hardware
+command=D:\userdata\quijano\My Documents\PIG REFERENCES\[00_REFERENCES]\HW STUFF
+
+[W63]
+keywords=prototype
+command=https://circuits.io/lab
+
+[W64]
+keywords=boost
+command=www.radmangames.com
+
+[W65]
+keywords=searchbook
+command=http://www.tech-recipes.com/rx/853/find_free_ebooks_google_electronic_books_/
+
+[W66]
+keywords=tools
+command=C:\Users\quijano\Documents\TOOLS
+
+[W67]
+keywords=heap
+command=https://swikis.int.net.nokia.com/bin/view/Main/BTSOMMemoryTracking
+
+[W68]
+keywords=xkcd
+command=https://xkcd.com/1608/
+
+[W69]
+keywords=hitchhikerguide
+command=http://eslinv14.emea.nsn-net.net
+
+[W70]
+keywords=owa
+command=https://outlook.office365.com/owa/nokia.com/
+
+[W71]
+keywords=azurepowershell
+command=https://msdn.microsoft.com/en-us/library/azure/dn708504(v=azure.300).aspx
+
+[W72]
+keywords=azureresourcemanager
+command=https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview
+
+[W73]
+keywords=azuredevopssetup
+command=https://www.youtube.com/watch?v=zFaIdsuBOlo
+
+[W74]
+keywords=azureinstall
+command=https://docs.microsoft.com/en-us/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0
+
+[W75]
+keywords=slrboothtemplate
+command=http://templates.slrbooth.com/editor/
+
+[W76]
+keywords=photoshoponline
+command=https://www.photopea.com/
+
+[W77]
+keywords=c++
+command=https://nokia.sharepoint.com/sites/plearn/SitePages/beTechie.aspx
+
+[W78]
+keywords=STLC++
+command=https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Standard-Template-Library-STL-
+
+[W79]
+keywords=msvs
+command=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe
+
+[W80]
+keywords=plantuml
+command=https://www.planttext.com/
+
+[W81]
+keywords=sharetechnote
+command=http://www.sharetechnote.com/
+
+[W82]
+keywords=pythontutorial
+command=https://realpython.com/
+
+[W83]
+keywords=idt
+command=https://nokia.sharepoint.com/sites/SM-RM_IDT/Radio%20Modules/Forms/IDT%20VIEW.aspx
+
+[W84]
+keywords=superreset
+command=https://jira3.inside.nsn.com/browse/CNI-39182
+
+[W85]
+keywords=htmlelementsref
+command=https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+[W86]
+keywords=htmltablecheatsheet
+command=https://www.codecademy.com/learn/learn-html/modules/learn-html-tables/reference
+
+[W87]
+keywords=htmlformscheatsheet
+command=https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/reference
+
+[W88]
+keywords=htmlsemantics
+command=https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
+
+[W89]
+keywords=wireshark
+command=https://confluence.int.net.nokia.com/display/Wireshark/Wireshark+Home
+
+[W90]
+keywords=javascriptEvents
+command=https://developer.mozilla.org/en-US/docs/Web/Events
+
+[W91]
+keywords=javascriptkeycode
+command=https://keycode.info/
+
+[W92]
+keywords=htmlinsertadjacenthtml
+command=https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+
+[W93]
+keywords=dommanipulation
+command=https://blog.garstasio.com/you-dont-need-jquery/dom-manipulation/
+
+[W94]
+keywords=pythongame
+command=https://py.checkio.org/
+
+[W95]
+keywords=javascriptgame
+command=https://js.checkio.org/
+
+[W96]
+keywords=jseventloopvisuals
+command=https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
+
+[W97]
+keywords=console
+command=C:\Users\quijano\Documents\TOOLS\Console-2.00b148-Beta_32bit\Console2\Console.exe
+
+[W98]
+keywords=nodejsdocumentation
+command=https://nodejs.org/api/
+
+[W99]
+keywords=npmsearch
+command=https://www.npmjs.com/search?q=$U$
+
+[W100]
+keywords=apiweather
+command=https://darksky.net/
+
+[W101]
+keywords=apimap
+command=https://www.mapbox.com/
+
+[W102]
+keywords=nodejsexpressapi
+command=https://expressjs.com/
+
+[W103]
+keywords=jsassert
+command=https://nodejs.org/api/assert.html#assert_assert_deepstrictequal_actual_expected_message
+
+[W104]
+keywords=mongodbnode
+command=https://docs.mongodb.com/drivers/node/
+
+[W105]
+keywords=cssboxmodel
+command=https://www.w3schools.com/css/css_boxmodel.asp
