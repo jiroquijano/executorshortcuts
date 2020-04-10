@@ -505,3 +505,7 @@ command=https://www.w3schools.com/css/css_boxmodel.asp
 [W106]
 keywords=mongodbCRUDdocs
 command=https://docs.mongodb.com/manual/crud/
+
+[W107]
+keywords=mongodboperators
+command=https://docs.mongodb.com/manual/reference/operator/
