@@ -501,3 +501,7 @@ command=https://docs.mongodb.com/drivers/node/
 [W105]
 keywords=cssboxmodel
 command=https://www.w3schools.com/css/css_boxmodel.asp
+
+[W106]
+keywords=mongodbCRUDdocs
+command=https://docs.mongodb.com/manual/crud/
