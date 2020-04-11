@@ -517,3 +517,7 @@ command=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global
 [W109]
 keywords=jsArrays
 command=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+[W110]
+keywords=mongoosedocs
+command=https://mongoosejs.com/docs/guide.html
