@@ -509,3 +509,11 @@ command=https://docs.mongodb.com/manual/crud/
 [W107]
 keywords=mongodboperators
 command=https://docs.mongodb.com/manual/reference/operator/
+
+[W108]
+keywords=jsStrings
+command=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+[W109]
+keywords=jsArrays
+command=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
