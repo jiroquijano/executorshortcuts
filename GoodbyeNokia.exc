@@ -521,3 +521,7 @@ command=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global
 [W110]
 keywords=mongoosedocs
 command=https://mongoosejs.com/docs/guide.html
+
+[W111]
+keywords=mongodbdeploymlabtutorial
+command=https://www.freecodecamp.org/forum/t/how-to-deploy-your-mongodb-app-to-heroku/19347
