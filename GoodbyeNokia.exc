@@ -533,3 +533,7 @@ command=https://console.developers.google.com/
 [W113]
 keywords=mongodbatlas
 command=https://account.mongodb.com/
+
+[W114]
+keywords=jestdocs
+command=https://jestjs.io/docs/en/getting-started.html
