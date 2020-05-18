@@ -475,7 +475,7 @@ keywords=nodejsdocumentation
 command=https://nodejs.org/api/
 
 [W99]
-keywords=npmsearch
+keywords=npm
 command=https://www.npmjs.com/search?q=$U$
 
 [W100]
@@ -545,3 +545,7 @@ command=https://momentjs.com/docs/
 [W116]
 keywords=socketiodocs
 command=https://socket.io/docs/
+
+[W117]
+keywords=reactdocs
+command=https://reactjs.org/
